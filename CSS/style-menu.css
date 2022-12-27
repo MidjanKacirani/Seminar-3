@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(50, 50, 50);
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.active{
+    background-color: darkgreen;
+}
+
+a:hover{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    color: black;
+    background-color: antiquewhite;
+    padding: 10px 0px;
+    display:none;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.main{
+    display: block;
+    color: antiquewhite;
+    background-color: rgb(50, 50, 50);
+    
+}
+
+ul:hover li{
+display: block;
+}
+
+li:hover{
+    background-color: black;
+
+}
+

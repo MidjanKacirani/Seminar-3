@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
+}
+
+div a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+div a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 255);
+}
+
+
+div:hover{
+    background-color: rgb(0, 130, 130);
+}
+
+
+
